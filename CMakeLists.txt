@@ -5,14 +5,6 @@ project (hdf5_testing VERSION 0.1
 find_package(MPI REQUIRED)
 find_package(HDF5 REQUIRED COMPONENTS CXX)
 
-
-#[==[
-this is a multi-line comment put here for the hell of it.
-so, here is a second line of comments...
-#]==]
-
-#include_directories ("${PROJECT_SOURCE_DIR}/include")
-
 add_executable(h5test src/h5test.cpp)
 
 target_compile_options(h5test PUBLIC -Wall -Wextra -Wpedantic -std=c++11)
