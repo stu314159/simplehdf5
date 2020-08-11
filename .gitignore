@@ -1,0 +1,6 @@
+*.vtk*
+.~
+*~
+*__pycache__*
+.metadata
+.project
